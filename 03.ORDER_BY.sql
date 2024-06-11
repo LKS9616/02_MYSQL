@@ -12,7 +12,7 @@ order by
 --    menu_price desc; -- 내림차순 정렬
     menu_price; -- 오름차순 정렬(default)
 
--- 컬럼에 따라 여러 번 저열ㄹ할 수 있다.
+-- 컬럼에 따라 여러 번 정렬할 수 있다.
 
 -- 메뉴  price를 기준으로 내림차순 정렬을 하고, 같은 가격이 있다면, menu_name에 따라 오름차순 정렬
 
