@@ -10,13 +10,15 @@ Structure Query Language의 약자로 직역하면 구조화된 질의 언어이
 
 select -- 조회해줘
     menu_name -- 어떤 칼럼을
-from tbl_menu; -- 어떤 테이블에서?
+from
+    tbl_menu; -- 어떤 테이블에서?
 
 select
     menu_code,
     menu_name,
     menu_price
-    from tbl_menu;
+from
+    tbl_menu;
 
 -- 모든 칼럼을 직접 써서 조회하기
 -- 해보세요!
