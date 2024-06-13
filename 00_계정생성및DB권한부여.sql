@@ -6,6 +6,8 @@
 
 -- MYSQL 계정 만들기
 -- 1) 새로운 계정 만들기
+use mysql;
+select * from user;
 create user 'ohgiraffers'@'%' identified by 'ohgiraffers';
 
 -- 2) 계정이 추가된 것을 확인하기
